@@ -2,7 +2,7 @@
 
 # Code 
 
-from wordcloud import WorkCloud
+from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 text ="        "
 cloud = WordCloud (background_color="white").generate(text)
@@ -12,4 +12,4 @@ plt.show()
 
 
 Build in pycharm by importing 
-Matplotlib and workcloud
+Matplotlib and wordcloud
